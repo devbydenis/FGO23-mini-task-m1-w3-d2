@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nomor-5</title>
+</head>
+<body>
+  <form>
+    <div>
+      <label for="username">Username</label>
+      <br />
+      <input type="text" name="username" id="username" placeholder="jokomi123">
+    </div>
+    <div>
+      <label for="age">Age</label>
+      <br />
+      <input type="number" name="age" id="age" placeholder="25">
+    </div>
+    <!-- div>p+(input+label)*3 -->
+    <div>
+      <p>Do you feel happy?</p>
+      <input type="radio" name="is-happy" id="is-happy">
+      <label for="is-happy">Nope</label>
+      <input type="radio" name="is-happy" id="is-happy">
+      <label for="is-happy">Average</label>
+      <input type="radio" name="is-happy" id="is-happy">
+      <label for="is-happy">Totally Happy</label>
+    </div>
+    <div>
+      <label for="role">Role</label>
+      <br />
+      <select name="role" id="role">
+        <option value="0" disabled selected>Choose your role</option>
+        <option value="1">Frontend Engineer</option>
+        <option value="2">Backend Engineer</option>
+        <option value="3">Fullstack Engineer</option>
+      </select>
+    </div>
+    <div>
+      <label for="note">Tell about yourself!</label>
+      <br />
+      <textarea name="note" id="note" placeholder="I'am incredible, i'm curious, ..."></textarea>
+    </div>
+    <div>
+      <input type="checkbox" name="terms-and-confitions" id="terms-and-confitions">
+      <label for="terms-and-confitions">I accepted all terms and confitions</label>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
